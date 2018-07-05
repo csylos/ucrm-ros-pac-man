@@ -3,7 +3,7 @@ PHP-based RouterOS Packet Manager for UCRM API
 
 This is a RouterOS packet manager for the Ubiquiti CRM using the RouterOS API PHP Class by Denis Basta with a lot of custom PHP code. Please feel free to use this to your heart's content. Just please reference me if you change it instead of claiming it as your own.
 
-# NOTE: Your RouterOS Packet Manager must have API port 8728 enabled in IP>Services. If it's not port 8728, the plugin will error out.
+# NOTE: Your RouterOS Packet Manager must have API port 8728 enabled in IP>Services. If it's not port 8728, the plugin will error out. Also, bridge your interfaces that go to your WAN and to your network. Then, set the bridge to use IP Firewall Filter. 
 
 # Files Included
 
